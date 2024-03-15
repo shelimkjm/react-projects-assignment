@@ -1,0 +1,111 @@
+ [
+      {
+        "recipe_id": 1,
+        "recipe_name": "Grilled Salmon with Asparagus",
+        "recipe_image": "grilled_salmon.jpg",
+        "short_description": "Delicious grilled salmon served with fresh asparagus.",
+        "ingredients": [
+          "4 salmon fillets (about 150g each)",
+          "1 bunch of asparagus",
+          "2 tablespoons olive oil",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "250 calories"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Chicken Stir-Fry",
+        "recipe_image": "chicken_stir_fry.jpg",
+        "short_description": "A quick and flavorful chicken stir-fry with vegetables.",
+        "ingredients": [
+          "500g chicken breast, sliced",
+          "1 red bell pepper, sliced",
+          "1 green bell pepper, sliced",
+          "1 onion, sliced",
+          "2 cloves garlic, minced",
+          "3 tablespoons soy sauce",
+          "2 tablespoons sesame oil"
+        ],
+        "preparing_time": "25 min",
+        "calories": "320 calories"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Caprese Salad",
+        "recipe_image": "caprese_salad.jpg",
+        "short_description": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
+        "ingredients": [
+          "4 ripe tomatoes, sliced",
+          "200g fresh mozzarella cheese, sliced",
+          "1/4 cup fresh basil leaves",
+          "2 tablespoons balsamic vinegar",
+          "2 tablespoons olive oil",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "15 min",
+        "calories": "180 calories"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Vegetable Pasta Primavera",
+        "recipe_image": "pasta_primavera.jpg",
+        "short_description": "A light and colorful pasta dish filled with seasonal vegetables.",
+        "ingredients": [
+          "300g pasta (your choice)",
+          "1 cup cherry tomatoes, halved",
+          "1 zucchini, sliced",
+          "1 yellow squash, sliced",
+          "1 bell pepper, diced",
+          "2 cloves garlic, minced",
+          "1/4 cup grated Parmesan cheese",
+          "2 tablespoons olive oil",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "30 min",
+        "calories": "280 calories"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Beef Tacos",
+        "recipe_image": "beef_tacos.jpg",
+        "short_description": "Classic beef tacos loaded with flavor and toppings.",
+        "ingredients": [
+          "500g ground beef",
+          "1 onion, diced",
+          "2 cloves garlic, minced",
+          "1 tablespoon chili powder",
+          "1 teaspoon cumin",
+          "1/2 teaspoon paprika",
+          "1/2 teaspoon oregano",
+          "Salt and pepper to taste",
+          "8 small tortillas",
+          "Toppings: shredded lettuce, diced tomatoes, shredded cheese, sour cream, salsa"
+        ],
+        "preparing_time": "35 min",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Vegetarian Pad Thai",
+        "recipe_image": "vegetarian_pad_thai.jpg",
+        "short_description": "A flavorful and satisfying vegetarian version of the classic Thai dish.",
+        "ingredients": [
+          "200g rice noodles",
+          "1 cup tofu, cubed",
+          "2 carrots, julienned",
+          "1 red bell pepper, sliced",
+          "2 cloves garlic, minced",
+          "2 eggs, beaten",
+          "3 tablespoons soy sauce",
+          "2 tablespoons lime juice",
+          "2 tablespoons brown sugar",
+          "2 tablespoons vegetable oil",
+          "Toppings: chopped peanuts, chopped cilantro, lime wedges"
+        ],
+        "preparing_time": "40 min",
+        "calories": "300 calories"
+      }
+    ]
+  
+  
