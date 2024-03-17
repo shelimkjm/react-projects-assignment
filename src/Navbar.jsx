@@ -1,4 +1,5 @@
-import './assets/Frame 5.png'
+import image from './assets/Frame 5.png'
+import icon from './assets/Frame.png'
 
 
 const Navbar = () => {
@@ -22,9 +23,9 @@ const Navbar = () => {
 
 
 {/* 3rd */}
-<div className="flex">
-<input className="bg-[#150B2B0D] p-1 rounded-md" type="text"  placeholder="Search"/>
-<img src="./assets/Frame 5.png" alt="waiting" />
+<div className="flex justify-center items-center gap-2">
+<div className='flex justify-center items-center bg-[#150B2B0D]  rounded-full'><img className='size-4' src={icon} alt="" /><input className=' bg-[#150B2B0D] p-1 ' type="text"  placeholder="Search"/></div>
+<img className='size-8' src={image} alt="waiting" />
 
 
 </div>
