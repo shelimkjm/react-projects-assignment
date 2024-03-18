@@ -10,7 +10,9 @@ import Single from "./Single"
 
 function App() {
 
-  const [recipe,setRecipe] = useState([])
+  const [recipe,setRecipe] = useState([]);
+  const [card,setCard]= useState([]);
+ 
 
   useEffect(()=>{
 fetch('Recipes.json')
@@ -18,9 +20,13 @@ fetch('Recipes.json')
 .then(data=>setRecipe(data))
 
   
-  })
+  });
 
+ const dataPass = (data) => {
+setCard(data)
+// setCard(...card,data);
 
+ };
 
 
 
@@ -35,17 +41,27 @@ fetch('Recipes.json')
 urna volutpat curabitur elementum mauris aenean neque.</p>
 <div  className="flex justify-between">
 
-<div className="grid grid-cols-2 space-x-4 space-y-4 w-2/3 border  ">
+<div className="grid lg:grid-cols-2 space-x-4 space-y-4 w-2/3 border  ">
 {recipe.map(item=><Single item={item} key={item.recipe_id
-}></Single>)}
+} dataPass ={dataPass} ></Single>)}
 
 </div>
-<div className="border">
-<h1 className="font-bold p-8 ">Want to cook: 01</h1>
-
+<div className="border w-1/4  bg-gray-300">
+<h1 className="font-bold p-8 text-center">Want to cook:{card.index}</h1>
+<div className="flex justify-around"><p>Name</p>
+<p>Time</p>
+<p>Calories</p></div>
+<div className="p-4 ">
+<div className="flex justify-around text-center bg-white  ">
+ 
+ <p>{card.recipe_name}</p>
+ <p>{card.preparing_time}</p>
+ <p>{card.calories}</p>
+ 
 </div>
 </div>
-
+</div>
+</div>
 
 
 

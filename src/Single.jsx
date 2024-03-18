@@ -3,12 +3,12 @@
 import clock from './assets/clock.png';
 import another from './assets/another.png' ;
 import PropTypes from 'prop-types';
-const Single = ({item}) => {
+const Single = ({item,dataPass}) => {
 
 
     return (
-        <div className='space-y-5 border border-red-500'> 
-            <img src={item.recipe_image}alt="waiting" />
+        <div className='space-y-5 border border-red-500 p-2'> 
+           <div className='flex justify-center items-center '> <img className='p-4  w-full rounded-lg' src={item.recipe_image}alt="waiting" /></div>
             <h1 className="font-bold ">{item.recipe_name}</h1>
             <p>{item.short_description}</p>
             <hr />
@@ -19,7 +19,7 @@ const Single = ({item}) => {
   <div className='flex gap-2'><img src={another} alt="" /> <p>600 Calories</p></div>
         </div>
 
-            <button className="bg-[#0BE58A] p-2  rounded-full font-bold">Want to Cook</button>
+            <button onClick={()=>dataPass(item)} className="bg-[#0BE58A] p-2  rounded-full font-bold">Want to Cook{dataPass} </button>
         </div>
     );
 };
@@ -28,5 +28,7 @@ export default Single;
 
 
 Single.propTypes = {
-   Single: PropTypes.object.isRequired
+    item: PropTypes.object.isRequired,
+    dataPass: PropTypes.func.isRequired
+   
   };

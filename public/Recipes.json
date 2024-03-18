@@ -8,7 +8,7 @@
       {
         "recipe_id": 1,
         "recipe_name": "Grilled Salmon with Asparagus",
-        "recipe_image": "grilled_salmon.jpg",
+        "recipe_image": "https://i.ibb.co/m6VCjZw/Rectangle-20170.png",
         "short_description": "Delicious grilled salmon served with fresh asparagus.",
         "ingredients": [
           "4 salmon fillets (about 150g each)",
@@ -22,7 +22,7 @@
       {
         "recipe_id": 2,
         "recipe_name": "Chicken Stir-Fry",
-        "recipe_image": "chicken_stir_fry.jpg",
+        "recipe_image": "https://i.ibb.co/7k4pBKP/Rectangle-20170-1.png",
         "short_description": "A quick and flavorful chicken stir-fry with vegetables.",
         "ingredients": [
           "500g chicken breast, sliced",
@@ -39,7 +39,7 @@
       {
         "recipe_id": 3,
         "recipe_name": "Caprese Salad",
-        "recipe_image": "caprese_salad.jpg",
+        "recipe_image": "https://i.ibb.co/0MJx4Zg/image4.jpg",
         "short_description": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
         "ingredients": [
           "4 ripe tomatoes, sliced",
@@ -55,7 +55,7 @@
       {
         "recipe_id": 4,
         "recipe_name": "Vegetable Pasta Primavera",
-        "recipe_image": "pasta_primavera.jpg",
+        "recipe_image": "https://i.ibb.co/m6VCjZw/Rectangle-20170.png",
         "short_description": "A light and colorful pasta dish filled with seasonal vegetables.",
         "ingredients": [
           "300g pasta (your choice)",
@@ -74,7 +74,7 @@
       {
         "recipe_id": 5,
         "recipe_name": "Beef Tacos",
-        "recipe_image": "beef_tacos.jpg",
+        "recipe_image": "https://i.ibb.co/w4GhYpt/image6.jpg",
         "short_description": "Classic beef tacos loaded with flavor and toppings.",
         "ingredients": [
           "500g ground beef",
@@ -94,7 +94,7 @@
       {
         "recipe_id": 6,
         "recipe_name": "Vegetarian Pad Thai",
-        "recipe_image": "vegetarian_pad_thai.jpg",
+        "recipe_image": "https://i.ibb.co/LdTYH0p/images.jpg",
         "short_description": "A flavorful and satisfying vegetarian version of the classic Thai dish.",
         "ingredients": [
           "200g rice noodles",
